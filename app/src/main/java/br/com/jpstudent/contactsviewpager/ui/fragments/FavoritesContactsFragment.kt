@@ -59,5 +59,4 @@ class FavoritesContactsFragment : BasePageFragment() {
             return fragment
         }
     }
-
 }

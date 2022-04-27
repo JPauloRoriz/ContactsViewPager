@@ -1,11 +1,11 @@
-package br.com.jpstudent.contactsviewpager.iu.fragments
+package br.com.jpstudent.contactsviewpager.ui.fragments
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import br.com.jpstudent.contactsviewpager.databinding.FragmentAllContactsBinding
-import br.com.jpstudent.contactsviewpager.iu.adapter.ContactsAdapter
+import br.com.jpstudent.contactsviewpager.ui.adapter.ContactsAdapter
 import br.com.jpstudent.contactsviewpager.viewmodel.ContactsViewModel
 import org.koin.androidx.viewmodel.ext.android.sharedViewModel
 

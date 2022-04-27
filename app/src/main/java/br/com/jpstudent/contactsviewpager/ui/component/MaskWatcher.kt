@@ -1,8 +1,7 @@
-package br.com.jpstudent.contactsviewpager.iu.component
+package br.com.jpstudent.contactsviewpager.ui.component
 
 import android.text.TextWatcher
 import android.text.Editable
-import br.com.jpstudent.contactsviewpager.iu.component.MaskWatcher
 
 class MaskWatcher(private val mask: String) : TextWatcher {
     private var isRunning = false

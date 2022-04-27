@@ -1,14 +1,13 @@
-package br.com.jpstudent.contactsviewpager.iu.bottomsheet
+package br.com.jpstudent.contactsviewpager.ui.bottomsheet
 
 import android.app.Dialog
 import android.os.Bundle
-import android.telephony.PhoneNumberFormattingTextWatcher
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import br.com.jpstudent.contactsviewpager.R
 import br.com.jpstudent.contactsviewpager.databinding.BottomsheetAddContactBinding
-import br.com.jpstudent.contactsviewpager.iu.component.MaskWatcher
+import br.com.jpstudent.contactsviewpager.ui.component.MaskWatcher
 import com.google.android.material.bottomsheet.BottomSheetBehavior
 import com.google.android.material.bottomsheet.BottomSheetDialog
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment

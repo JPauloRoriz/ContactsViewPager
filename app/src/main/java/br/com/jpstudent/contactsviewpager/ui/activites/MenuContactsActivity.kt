@@ -1,14 +1,13 @@
-package br.com.jpstudent.contactsviewpager.iu.activites
+package br.com.jpstudent.contactsviewpager.ui.activites
 
 import android.os.Bundle
-import android.util.Log
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import br.com.jpstudent.contactsviewpager.databinding.ActivityMenuContactsBinding
-import br.com.jpstudent.contactsviewpager.iu.adapter.ViewPagerAdapter
-import br.com.jpstudent.contactsviewpager.iu.bottomsheet.AddContactBottomSheet
-import br.com.jpstudent.contactsviewpager.iu.fragments.AllContactsFragment
-import br.com.jpstudent.contactsviewpager.iu.fragments.FavoritesContactsFragment
+import br.com.jpstudent.contactsviewpager.ui.adapter.ViewPagerAdapter
+import br.com.jpstudent.contactsviewpager.ui.bottomsheet.AddContactBottomSheet
+import br.com.jpstudent.contactsviewpager.ui.fragments.AllContactsFragment
+import br.com.jpstudent.contactsviewpager.ui.fragments.FavoritesContactsFragment
 import br.com.jpstudent.contactsviewpager.viewmodel.MenuContactsViewModel
 import com.google.android.material.tabs.TabLayout
 import com.google.android.material.tabs.TabLayoutMediator

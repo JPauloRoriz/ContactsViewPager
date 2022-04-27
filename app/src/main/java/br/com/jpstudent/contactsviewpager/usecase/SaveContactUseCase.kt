@@ -18,7 +18,7 @@ class SaveContactUseCase(
         if(name.length < 3){
             throw NameLenghtException(context.getString(R.string.lengt_name))
         }
-        if(number.length != 11){
+        if(number.length != 13){
             throw FormatNumberInvalidException(context.getString(R.string.format_invalid))
         }
 

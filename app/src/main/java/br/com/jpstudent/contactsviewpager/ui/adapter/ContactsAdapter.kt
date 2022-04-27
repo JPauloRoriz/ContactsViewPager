@@ -1,4 +1,4 @@
-package br.com.jpstudent.contactsviewpager.iu.adapter
+package br.com.jpstudent.contactsviewpager.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.View
